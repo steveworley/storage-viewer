@@ -1,0 +1,90 @@
+body {
+  background-color: #eee;
+  background-size: 10px;
+  background-image: -webkit-linear-gradient(0, transparent 90%, rgba(200, 200, 200, .25) 50%);
+  background-image: -moz-linear-gradient(0px 50%, transparent 90%, rgba(200, 200, 200, 0.25) 50%);
+  background-image: -ms-linear-gradient(0, transparent 90%, rgba(200, 200, 200, .25) 50%);
+  background-image: -o-linear-gradient(0, transparent 90%, rgba(200, 200, 200, .25) 50%);
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  width: 500px;
+}
+ul {
+  background: url('http://localdev.mavericks-workshops.fclweb.net/sites/all/modules/dev-modules/devel/krumo/skins/orange/bg.gif');
+  list-style: none;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+ul ul {
+  padding-left: 16px;
+  display: none;
+}
+li > div {
+  background: #FADB61;
+  padding: 5px;
+  border-top: 1px solid white;
+}
+.krumo-top div {
+  background: #FCEBA9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+li > div:hover {
+  background: #FF8A4B;
+  cursor: pointer;
+}
+h1 {
+  background: rgba(71,69,57,.2);
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: #333;
+  text-shadow: 1px 0px 0px #000;
+}
+h1 img {
+  background: rgba(255,255,255,.5);
+  border-radius: 100%;
+  padding: 10px;
+  max-height: 100%;
+  max-width: 64px;
+}
+ul {margin-top: 0;}
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+}
+.storage-item {
+  border-top: 1px dashed rgba(0,0,0,.3);
+}
+p.storage-title {
+  background: rgba(255,255,2555,.6);
+  padding: 5px;
+  margin: 0;
+  padding: 1em 0;
+  border-bottom: 1px solid rgba(50,50,50,.3);
+}
+p.storage-value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+[contenteditable] {
+  padding: 5px;
+  display: inline-block;
+}
+[contenteditable]:focus {
+  background: rgba(255,255,255,.5);
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+.storage-title a {
+  color: #333;
+  text-decoration: none;
+  background: #F5F3C1;
+}
